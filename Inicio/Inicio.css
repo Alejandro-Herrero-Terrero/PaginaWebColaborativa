@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6 ;
+    line-height: 1.6;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-/* Sección de encabezado */
+/* Sección de bienvenida */
 .hero {
     background-color: #0D3B66;
     color: white;
@@ -48,49 +48,75 @@ body {
     font-weight: 400;
 }
 
-/* Sección de servicios */
-.services {
+/* Sección de habilidades */
+.skills {
     background-color: #ffffff;
     padding: 60px 20px;
     text-align: center;
 }
 
-.services h2 {
+.skills h2 {
     font-size: 2.5em;
     color: #333;
     margin-bottom: 40px;
 }
 
-.service-list {
+.skill-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.service-item {
+.skill-item {
     background-color: #1E6091;
     color: white;
     padding: 20px 30px;
     border-radius: 8px;
     font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #168194;
+}
+
+/* Sección de proyectos */
+.projects {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
     width: 300px;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.service-item:hover {
+.project-item:hover {
     transform: scale(1.05);
 }
 
-.service-item h3 {
+.project-item h3 {
     margin-bottom: 15px;
     font-size: 1.5em;
-    color: white;
-}
-
-.service-item p {
-    font-size: 1.1em;
-    font-weight: 400;
+    color: #333;
 }
 
 /* Sección de contacto */
@@ -128,7 +154,7 @@ footer p {
     font-size: 1.1em;
 }
 
-/* Transiciones suaves */
+/* Añadir transiciones suaves */
 a, button {
     transition: all 0.3s ease;
 }
