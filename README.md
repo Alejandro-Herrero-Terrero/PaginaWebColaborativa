@@ -26,4 +26,4 @@ Para ejecutar este proyecto en tu máquina local, necesitarás tener instalado:
 
 1. Abre una terminal en tu visual studio code.
 2. Clona el repositorio de GitHub ejecutando el siguiente comando:
-    - git clone https://github.com/Alejandro-Herrero-Terrero/PaginaWebColaborativa.git
+    - git clone https://github.com/Alejandro-Herrero-Terrero/PaginaWebColaborativa_Grupo7.git
